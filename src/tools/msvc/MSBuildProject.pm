@@ -87,7 +87,7 @@ EOF
 			defs    => "_DEBUG;DEBUG=1",
 			opt     => 'Disabled',
 			strpool => 'false',
-			runtime => 'MultiThreadedDebugDLL'
+			runtime => 'MultiThreadedDebug'
 		});
 	$self->WriteItemDefinitionGroup(
 		$f,
@@ -96,7 +96,7 @@ EOF
 			defs    => "",
 			opt     => 'Full',
 			strpool => 'true',
-			runtime => 'MultiThreadedDLL'
+			runtime => 'MultiThreaded'
 		});
 	return;
 }
